@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 30%;
+    height:100%;
+    background-color:lightgray;
+    margin: auto;
+}
+.container_wrapper{
+    background-color: rgb(152, 136, 127);
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.input_div{
+    background-color: rgb(159, 43, 48);
+    height: 70px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    border-bottom-left-radius: 10px;
+}
+.taskName{
+    font-size:18px;
+    width:86%;
+    display:block;
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    margin-left: 15px;
+    background-color: rgb(178,85,89);
+    color: rgb(25 24 24);
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+    padding-left: 10px;
+    height: 50%;
+}
+.taskName::placeholder {
+    color: rgb(25 24 24);
+    opacity: 0.5;
+  }
+.addIcon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+.addIcon i {
+    font-style: normal;
+    font-size: 25px;
+    left: 8px;
+    position: absolute;
+    color: rgb(220, 0, 78);
+}
+.To-do-list{
+    list-style-type: none;
+    margin: 10px 15PX 0;
+    padding: 0;
+}
+.To-do-list-wrapper {
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+.To-do-list-main-div{
+    position: relative;
+}
+.span_container{
+    display:inline-block;
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    
+}
+.icons {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.delete {
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+}
+
+.taskTitle {
+    width: 55%;
+    color: rgb(220, 0, 78);
+    font-size: 14px;
+}
+
+.parrel-divs {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icons-divs {
+    width: 40%;
+    text-align: right;
+}
+.hrLine {
+    width: 60%;
+    margin: 0 auto;
+}
+.disable-task{
+    opacity: 0.3;
+    cursor: auto;
+    pointer-events: none;
+}
